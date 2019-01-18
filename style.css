@@ -1,0 +1,98 @@
+#welcome{
+  padding: 250px 0 0 0;
+  text-align: center;
+  color:#C48938;
+  font-family: 'Sacramento', cursive;
+  font-size:30px;
+
+
+}
+body{
+  background-color: #000000;
+  margin:0;
+}
+#home{
+  height:100vh;
+  background-image: url("https://media.istockphoto.com/vectors/abstract-striped-knitted-sweater-pattern-vector-seamless-background-vector-id995342012?s=170x170");
+  display: none;
+  margin:0;
+}
+#reset{
+  background-color: #C48938;
+  border:none;
+  width: 130px;
+  height:130px;
+  border-radius: 50%;
+  font-family: 'Paytone One', sans-serif;
+  outline: none;
+
+}
+#selectmode1{
+  width:130px;
+  height:130px;
+  background-color:#C48938;
+  border-radius: 100%;
+  border: 6px solid #8F2824;
+  outline:none;
+  margin: 0 18px;
+  display: inline-block;
+  text-align: center;
+
+}
+#selectmode2{
+  width:130px;
+  height:130px;
+  background-color:#C48938;
+  border-radius: 100%;
+  border: 6px solid #8F2824;
+  outline:none;
+  margin: 0 0 0 10%;
+}
+#btncontainer{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color:#C48938;
+  margin: 10px 10px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}

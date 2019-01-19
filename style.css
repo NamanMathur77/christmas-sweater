@@ -11,8 +11,33 @@ display: none;
 
 }
 body{
-  background-color: #000000;
+  background-image: url("bodyback2.jpg");
   margin:0;
+}
+#game1{
+  background-image: url("header1.jpg");
+  height:65px;
+  width:100%;
+  background-repeat: repeat-x;
+}
+#game2{
+  background-image: url("mid1.jpg");
+  height:150px;
+  width:100%;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+#game3{
+  background-image: url("innermid1.jpg");
+  height:100px;
+  width:100%;
+  background-repeat: repeat-x;
+}
+#game4{
+  background-image: url("innermid1.jpg");
+  height:70px;
+  width:100%;
+  background-repeat: repeat-x;
 }
 #home{
   height:100vh;

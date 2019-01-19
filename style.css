@@ -40,6 +40,7 @@ body{
   margin: 0 18px;
   display: inline-block;
   text-align: center;
+  box-shadow: 2px 2px 2px black;
 
 }
 #selectmode2{
@@ -50,6 +51,7 @@ body{
   border: 6px solid #8F2824;
   outline:none;
   margin: 0 0 0 10%;
+  box-shadow: 2px 2px 2px black;
 }
 #btncontainer{
   text-align: center;

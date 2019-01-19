@@ -16,6 +16,12 @@ selectmode1.addEventListener("click",function(){
   $("#home").remove();
   game.style.display="block";
 });
+resetbtn.addEventListener("mouseover",function(){
+  this.style.color="red";
+});
+resetbtn.addEventListener("mouseout",function(){
+  this.style.color="black";
+})
 facebookbtn.addEventListener("mouseover",function(){
   facebookbtn.style.color="blue";
   facebookbtn.style.borderRadius="10px";
